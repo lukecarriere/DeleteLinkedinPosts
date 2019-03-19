@@ -14,17 +14,18 @@ Here are some of those helpful Twitter resources:
 3. https://gist.github.com/parkr/d600696478d03d6f9c32
 4. https://jeffreifman.com/2018/04/12/how-to-delete-your-twitter-favorites-with-javascript/
 
-But for linkedin, all I could find was a way to bulk delete messages, not posts. [perhaps because MSFT owns Linkedin and also GitHub?]
-This was the basis for my hack below:
-1. https://gist.github.com/twhitacre/d4536183c22a2f5a8c7c427df04acc90
+But for linkedin, all I could find was a way to unfollow people and bulk delete messages, not posts. [perhaps because MSFT owns Linkedin and also GitHub?]
+1. Unfollow people: https://mighil.com/mass-unfollow-people-on-linkedin/
+2. https://gist.github.com/twhitacre/d4536183c22a2f5a8c7c427df04acc90 (This was the basis for my hack below)
+3. https://www.linkedin.com/pulse/how-delete-multiple-linkedin-messages-hack-peter-abilla
 
 HOW TO USE IT: 
-1. Use Brave browser or Chrome
-2. Login to your Linkedin account and go to your recent activity at this URL (replace the USERNAME with your own):
+Step 1. Use Brave browser or Chrome
+Step 2. Login to your Linkedin account and go to your recent activity at this URL (replace the USERNAME with your own):
 https://www.linkedin.com/in/USERNAME/detail/recent-activity/shares/
-3. Then right click on the page and click "Inspect"
-4. Select Console and copy/paste the below script into the bottom right input area and hit Enter.
-5. It will continue running and loading new posts as long as you stay on the browser window
+Step 3. Then right click on the page and click "Inspect"
+Step 4. Select Console and copy/paste the below script into the bottom right input area and hit Enter.
+Step 5. It will continue running and loading new posts as long as you stay on the browser window
 
 //find and click the Delete Post option in the dropdown on the top right of each post
 ;(function () {

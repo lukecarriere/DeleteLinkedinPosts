@@ -35,7 +35,7 @@ https://www.linkedin.com/in/USERNAME/detail/recent-activity/shares/
 		$(elem).click();
     }
     });
-    //Click the Delete button in the confirmation modal
+    //Click the Delete button in the confirmation modal, wait a second before deleting the next post
       setTimeout(() => $('button.feed-shared-decision-modal__confirm-button.button-tertiary-large').click(), 500)
   }, 1000);
 }());

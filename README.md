@@ -13,9 +13,9 @@ For twitter, I was able to easily find some helpful scripts from these helpful T
 5) unfollow accounts:https://lifehacker.com/use-a-script-to-clear-out-your-twitter-feed-and-start-f-827264023
 
 But for linkedin, all I could find was a way to unfollow people and bulk delete messages, not posts. [perhaps because MSFT owns Linkedin and also GitHub?]
-1. Unfollow people: https://mighil.com/mass-unfollow-people-on-linkedin/
-2. Delete messages: https://www.linkedin.com/pulse/how-delete-multiple-linkedin-messages-hack-peter-abilla
-3. Delete messages: https://gist.github.com/twhitacre/d4536183c22a2f5a8c7c427df04acc90 (This was the basis for my hack below)
+1. unfollow people: https://mighil.com/mass-unfollow-people-on-linkedin/
+2. delete messages: https://www.linkedin.com/pulse/how-delete-multiple-linkedin-messages-hack-peter-abilla
+3. delete messages: https://gist.github.com/twhitacre/d4536183c22a2f5a8c7c427df04acc90 (This was the basis for my hack below)
 
 HOW TO USE THIS CODE TO REMOVE YOUR POSTS FROM LINKEDIN: 
 Step 1. Use Brave browser or Chrome

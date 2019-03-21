@@ -17,10 +17,10 @@ But for linkedin, all I could find was a way to unfollow people and bulk delete 
 2. delete messages: https://www.linkedin.com/pulse/how-delete-multiple-linkedin-messages-hack-peter-abilla
 3. delete messages: https://gist.github.com/twhitacre/d4536183c22a2f5a8c7c427df04acc90 (This was the basis for my hack below)
 
-HOW TO USE THIS CODE TO REMOVE YOUR POSTS FROM LINKEDIN: 
-Step 1. Use Brave browser or Chrome
+HOW TO USE THIS CODE TO REMOVE YOUR POSTS FROM LINKEDIN: <br>
+Step 1. Use Brave browser or Chrome<br>
 Step 2. Login to your Linkedin account and go to your recent activity at this URL (replace the USERNAME with your own):
-https://www.linkedin.com/in/USERNAME/detail/recent-activity/shares/
-Step 3. Then right click on the page and click "Inspect"
-Step 4. Select Console and copy/paste the below script into the bottom right input area and hit Enter.
-Step 5. It will continue running and loading new posts as long as you stay on the browser window
+https://www.linkedin.com/in/USERNAME/detail/recent-activity/shares/ <br>
+Step 3. Then right click on the page and click "Inspect"<br>
+Step 4. Select Console and copy/paste the below script into the bottom right input area and hit Enter.<br>
+Step 5. It will continue running and loading new posts as long as you stay on the browser window<br>

@@ -13,7 +13,7 @@ https://www.linkedin.com/in/#USERNAME/detail/recent-activity/shares/ <br>
 Step 3. Then right click on the page and click "Inspect"<br>
 Step 4. Select "Console" and copy/paste the below script into the input area and hit Enter. Wait for all your posts to load.<br>
 
-
+<code>
 var cnt=1;
 var interval = setInterval(clearFavs, 1500);
 function clearFavs() {
@@ -21,13 +21,14 @@ cnt+=1;
 window.scrollTo(0,document.body.scrollHeight);
 }
 <br>
-
+</code>
 
 Step 5. After you posts are all loaded, then enter this into Console and hit Enter:<br>
 
-
+<code>
 for(var i = 1; i < 500; i++){ // just do it a bunch
   // Un retweet
   document.getElementsByClassName("react-button__trigger")[i].click();
 }
-<br>
+                       </code>
+  <br>

@@ -1,7 +1,7 @@
 # DeleteLinkedinPosts
 Unlike your Linkedin Likes
 
-Recently I decided to delete all my Linkedin posts, but all I could find was a way to unfollow people and bulk delete messages, not posts. [perhaps because MSFT owns Linkedin and also GitHub?]
+Recently I decided to unlike all my Linkedin liked, but all I could find was a way to unfollow people and bulk delete messages, not liked. [perhaps because MSFT owns Linkedin and also GitHub?]
 1. unfollow people: https://mighil.com/mass-unfollow-people-on-linkedin/
 2. delete messages: https://www.linkedin.com/pulse/how-delete-multiple-linkedin-messages-hack-peter-abilla
 3. delete messages: https://gist.github.com/twhitacre/d4536183c22a2f5a8c7c427df04acc90 (This was the basis for my hack below)
@@ -23,7 +23,7 @@ window.scrollTo(0,document.body.scrollHeight);
 
 </code>
 <br>
-Step 5. After you posts are all loaded, then enter this into Console and hit Enter:<br>
+Step 5. After your liked posts are all loaded, then enter this into Console and hit Enter:<br>
 
 <code>
 for(var i = 1; i < 500; i++){ 

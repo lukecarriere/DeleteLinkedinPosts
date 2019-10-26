@@ -20,9 +20,9 @@ function clearFavs() {
 cnt+=1;
 window.scrollTo(0,document.body.scrollHeight);
 }
-<br>
-</code>
 
+</code>
+<br>
 Step 5. After you posts are all loaded, then enter this into Console and hit Enter:<br>
 
 <code>

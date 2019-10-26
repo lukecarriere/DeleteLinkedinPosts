@@ -14,6 +14,6 @@ Step 4. Select "Console" and copy/paste the below script into the input area and
 
 var cnt=1; var interval = setInterval(clearFavs, 1500); function clearFavs() { cnt+=1; window.scrollTo(0,document.body.scrollHeight); }
 
-Step 5. After you posts are all loaded, then enter this into Console and hit Enter:
+Step 5. After your liked posts are all loaded, then enter this into Console and hit Enter:
 
 for(var i = 1; i < 500; i++){ // just do it a bunch // Un retweet document.getElementsByClassName("react-button__trigger")[i].click(); }
